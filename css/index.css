@@ -3,6 +3,10 @@ body {
   background: #f8f8f8; }
 
 header {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
   background: #fff;
   height: 1.43519rem; }
   header #tongzhi {
@@ -27,6 +31,7 @@ header {
     margin: 0.46296rem 0.41667rem 0 0; }
 
 #banner {
+  padding-top: 1.43519rem;
   height: 4.55556rem; }
   #banner img {
     display: block;
@@ -87,6 +92,7 @@ header {
       font-family: "微软雅黑"; }
 
 #kind {
+  margin-bottom: 0.21296rem;
   margin-top: 0.21296rem; }
   #kind .title {
     height: 1.11111rem;
@@ -139,5 +145,158 @@ header {
     font-family: "微软雅黑";
     color: #666666;
     line-height: 0.92593rem; }
+
+#zhuanTi {
+  background: #FFFFFF;
+  padding-top: 0.35185rem;
+  margin-bottom: 0.21296rem; }
+  #zhuanTi h3 {
+    height: 0.53704rem;
+    margin-left: 0.26852rem;
+    border-left: 0.05556rem solid #2ecbf8;
+    text-indent: 0.2963rem;
+    font: 600 0.2963rem "微软雅黑";
+    line-height: 0.53704rem;
+    margin-bottom: 0.35185rem; }
+  #zhuanTi .box {
+    overflow: hidden;
+    position: relative;
+    height: 3.60185rem;
+    padding-bottom: 0.22222rem; }
+    #zhuanTi .box ul {
+      position: absolute;
+      top: 0;
+      left: 0.55556rem;
+      height: 3.60185rem;
+      display: flex;
+      width: 27.03704rem;
+      justify-content: space-between; }
+      #zhuanTi .box ul li {
+        width: 8.89815rem; }
+        #zhuanTi .box ul li a img {
+          display: block;
+          width: 100%; }
+
+#zuiXin {
+  background: #FFFFFF;
+  padding-top: 0.35185rem;
+  margin-bottom: 0.21296rem; }
+  #zuiXin h3 {
+    height: 0.53704rem;
+    margin-left: 0.26852rem;
+    border-left: 0.05556rem solid #2ecbf8;
+    text-indent: 0.2963rem;
+    font: 600 0.2963rem "微软雅黑";
+    line-height: 0.53704rem;
+    margin-bottom: 0.16667rem;
+    position: relative; }
+    #zuiXin h3 a {
+      position: absolute;
+      font: 0.2963rem "微软雅黑";
+      padding-right: 0.37037rem;
+      top: 0.06481rem;
+      right: 0.37037rem;
+      background: url(../img/12.png) no-repeat right center;
+      background-size: 0.12037rem auto; }
+  #zuiXin .content {
+    display: flex;
+    background: #fff;
+    width: 9.41667rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 0 auto; }
+    #zuiXin .content li {
+      width: 4.57407rem;
+      height: 3.67593rem;
+      margin-top: 0.23148rem; }
+      #zuiXin .content li img {
+        width: 100%; }
+      #zuiXin .content li p {
+        font-size: 0.31481rem;
+        line-height: 0.51852rem;
+        font-family: "微软雅黑";
+        margin-top: 0.13889rem; }
+
+#reMen {
+  padding-bottom: 1.35185rem;
+  background: #FFFFFF;
+  padding-top: 0.35185rem;
+  margin-bottom: 0.21296rem; }
+  #reMen h3 {
+    height: 0.53704rem;
+    margin-left: 0.26852rem;
+    border-left: 0.05556rem solid #2ecbf8;
+    text-indent: 0.2963rem;
+    font: 600 0.2963rem "微软雅黑";
+    line-height: 0.53704rem;
+    margin-bottom: 0.16667rem;
+    position: relative; }
+    #reMen h3 a {
+      position: absolute;
+      font: 0.2963rem "微软雅黑";
+      padding-right: 0.37037rem;
+      top: 0.06481rem;
+      right: 0.37037rem;
+      background: url(../img/12.png) no-repeat right center;
+      background-size: 0.12037rem auto; }
+  #reMen ul {
+    padding: 0.55556rem 0.27778rem; }
+    #reMen ul li {
+      margin-bottom: 0.53704rem; }
+      #reMen ul li dl dt {
+        float: left;
+        width: 3.58333rem; }
+        #reMen ul li dl dt img {
+          width: 100%;
+          display: block; }
+      #reMen ul li dl dd {
+        float: right;
+        width: 5.55556rem;
+        position: relative;
+        height: 2.22222rem; }
+        #reMen ul li dl dd h4 {
+          font: 0.2963rem "微软雅黑";
+          line-height: 0.52778rem;
+          color: #000000; }
+        #reMen ul li dl dd p {
+          position: absolute;
+          width: 100%;
+          bottom: 0; }
+          #reMen ul li dl dd p b {
+            float: left;
+            padding-left: 0.46296rem;
+            background: url(../img/14.png) no-repeat left center;
+            background-size: 0.35185rem auto; }
+          #reMen ul li dl dd p i {
+            float: right; }
+
+footer {
+  border-top: 1px solid #AAAAAA;
+  height: 1.35185rem;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  footer b {
+    width: 0.55556rem; }
+    footer b:nth-child(1) {
+      background: url(../img/15.png) no-repeat center;
+      background-size: 0.55556rem auto; }
+    footer b:nth-child(2) {
+      background: url(../img/16.png) no-repeat center;
+      background-size: 0.55556rem auto; }
+    footer b:nth-child(3) {
+      width: 1.11111rem;
+      background: url(../img/19.png) no-repeat center;
+      background-size: 1.11111rem auto; }
+    footer b:nth-child(4) {
+      background: url(../img/17.png) no-repeat center;
+      background-size: 0.55556rem auto; }
+    footer b:nth-child(5) {
+      background: url(../img/18.png) no-repeat center;
+      background-size: 0.55556rem auto; }
 
 /*# sourceMappingURL=index.css.map */

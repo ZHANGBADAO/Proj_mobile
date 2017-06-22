@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body {
+  background: #f8f8f8; }
+
+#m3 header {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  height: 1.43519rem;
+  display: flex; }
+  #m3 header b {
+    position: absolute;
+    width: 0.55556rem;
+    height: 0.05556rem;
+    left: 3.7037rem;
+    bottom: 0.31481rem;
+    background: #000000; }
+  #m3 header a {
+    font: 0.40741rem "微软雅黑";
+    color: #000000;
+    line-height: 1.43519rem; }
+    #m3 header a:nth-child(1) {
+      margin-left: 3.56481rem;
+      margin-right: 1.15741rem; }
+    #m3 header a:nth-child(3) {
+      width: 0.31481rem;
+      background: url(../img/20.png) no-repeat center;
+      background-size: 0.31481rem auto;
+      margin-left: 2.87037rem; }
+#m3 #zuiXin {
+  background: #FFFFFF;
+  padding-top: 1.43519rem;
+  margin-bottom: 0.21296rem; }
+  #m3 #zuiXin h3 {
+    height: 0.53704rem;
+    margin-left: 0.26852rem;
+    border-left: 0.05556rem solid #2ecbf8;
+    text-indent: 0.2963rem;
+    font: 600 0.2963rem "微软雅黑";
+    line-height: 0.53704rem;
+    margin-bottom: 0.16667rem;
+    position: relative; }
+    #m3 #zuiXin h3 a {
+      position: absolute;
+      font: 0.2963rem "微软雅黑";
+      padding-right: 0.37037rem;
+      top: 0.06481rem;
+      right: 0.37037rem;
+      background: url(../img/12.png) no-repeat right center;
+      background-size: 0.12037rem auto; }
+  #m3 #zuiXin .content {
+    height: 3.31481rem;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE; }
+    #m3 #zuiXin .content img {
+      display: block;
+      width: 100%; }
+  #m3 #zuiXin p {
+    height: 1.05556rem;
+    text-align: center;
+    font: 0.33333rem "微软雅黑";
+    line-height: 1.05556rem; }
+#m3 #latest {
+  background: #fff;
+  padding-top: 0.25926rem; }
+  #m3 #latest h3 {
+    width: 2.24074rem;
+    height: 0.50926rem;
+    margin: 0 auto 0.86111rem;
+    font: 0.32407rem "微软雅黑";
+    line-height: 0.50926rem;
+    color: #1dd1f6;
+    background: url(../img/22.png) no-repeat left top, url(../img/23.png) no-repeat right bottom;
+    background-size: 0.27778rem auto;
+    text-align: center; }
+  #m3 #latest .content {
+    padding: 0 0.27778rem; }
+    #m3 #latest .content li {
+      margin-bottom: 0.55556rem; }
+      #m3 #latest .content li a h4 {
+        margin-bottom: 0.43519rem;
+        display: flex; }
+        #m3 #latest .content li a h4 b {
+          width: 1.06481rem;
+          height: 1.06481rem; }
+          #m3 #latest .content li a h4 b img {
+            width: 100%; }
+        #m3 #latest .content li a h4 i {
+          margin-left: 0.13889rem; }
+          #m3 #latest .content li a h4 i h5 {
+            font: 0.2963rem "微软雅黑";
+            margin-bottom: 0.18519rem;
+            color: #000000; }
+            #m3 #latest .content li a h4 i h5 > img {
+              width: 0.22222rem;
+              margin-left: 0.14815rem; }
+          #m3 #latest .content li a h4 i s {
+            font: 0.25rem "微软雅黑"; }
+          #m3 #latest .content li a h4 i span {
+            font: 0.25rem "微软雅黑";
+            margin-left: 0.2963rem; }
+      #m3 #latest .content li a > img {
+        width: 100%; }
+
+/*# sourceMappingURL=reMen.css.map */
