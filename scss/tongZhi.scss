@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@function r($px){//$px为需要转换的px
+    @return $px / 1080 * 10 * 1rem;
+}
+
+body{
+    background: #f8f8f8;
+}
+#m6{
+    
+
+header{
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top:0;
+    background: #fff;
+    height: r(155);
+    display: flex;
+    border-bottom: 1px solid #EEEEEE;
+    b{
+        position: absolute;
+        width:r(60);
+        height: r(6);
+        left: r(640);
+        bottom: r(34);
+        background: #000000;
+    }
+    a{
+        font:r(44) "微软雅黑";
+        color:#000000;
+        line-height: r(155);
+        &:nth-child(2){
+            margin-left: r(335);
+            margin-right: r(125);
+        }
+        &:nth-child(1){
+            width: r(34);
+            background: url(../img/39.png) no-repeat center;
+            background-size: r(34) auto;
+            margin-left: r(45);
+        }
+    }
+}
+
+#main{
+    padding-top: r(155);
+    ul{
+        padding:0 r(30);
+        li{
+            margin-bottom: r(20);
+            padding-bottom:r(20) ;
+                background: #fff;
+            h3{
+                font:r(30) "微软雅黑";
+                text-align: center;
+                color: #555555;
+                padding:r(32) 0;
+                
+            }
+            dl{
+                display: flex;
+                dt{
+                    width:r(114);
+                    img{
+                        width:100%;
+                        display: block;
+                    }
+                }
+                dd{
+                    width:r(870);
+                    margin-left: r(34);
+                    img{
+                        width:100%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+}

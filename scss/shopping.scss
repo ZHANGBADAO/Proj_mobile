@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@function r($px){//$px为需要转换的px
+    @return $px / 1080 * 10 * 1rem;
+}
+
+body{
+    background: #f8f8f8;
+}
+#m7{
+    
+
+header{
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top:0;
+    background: #fff;
+    height: r(155);
+    display: flex;
+    border-bottom: 1px solid #EEEEEE;
+    
+    a{
+        font:r(44) "微软雅黑";
+        color:#000000;
+        line-height: r(155);
+        &:nth-child(2){
+            margin-left: r(335);
+            margin-right: r(125);
+        }
+        &:nth-child(1){
+            width: r(34);
+            background: url(../img/39.png) no-repeat center;
+            background-size: r(34) auto;
+            margin-left: r(45);
+        }
+    }
+}
+
+#kind{
+    margin-top: r(155);
+    display: flex;
+    height: r(137);
+    background: #fff;
+    justify-content: space-around;
+    li{
+        font: r(40) "微软雅黑";
+        align-self: center;
+        &:nth-child(1){
+            color:#2ECBF8;
+        }
+    }
+}
+
+#goods{
+    margin-top: r(18);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    li{
+        width: r(508);
+        margin-bottom: r(15);
+        background: #fff;
+        img{
+            width:100%;
+            display: block;
+        }
+        h3{
+            font:r(38) "微软雅黑";
+            font-weight: 600;
+            padding: r(15) 0;
+        }
+        p{
+            font:r(28) "微软雅黑";
+            padding: r(8) 0;
+            color:#CF2D28;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+}

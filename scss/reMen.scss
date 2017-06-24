@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @function r($px){//$px为需要转换的px
-    @return $px / 1080 * 10 * 1rem;
+    @return $px / 1080 * 10 *1rem;
 }
 
 body{
